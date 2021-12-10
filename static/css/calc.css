@@ -1,0 +1,65 @@
+/* 
+Author : Yasser Bennani 
+CW 2 Part 2 - Exam 
+*/
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text&display=swap");
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  font-family: "Big Shoulders Stencil Text", cursive;
+  background-color: silver;
+  font-size: 16px;
+}
+
+.container {
+  background-color: silver;
+}
+
+.calcDiv {
+  background-color: gray;
+  min-height: 400px;
+  width: 220px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.calcDisplay {
+  border: 2px solid white;
+  background-color: gainsboro;
+  min-height: 35px;
+  width: 180px;
+  margin: 20px;
+  overflow-wrap: break-word;
+  color: #874caf;
+}
+
+.calcModel {
+  color: white;
+}
+
+.memoryDisplay {
+  border: 2px solid white;
+  background-color: gainsboro;
+  max-width: 75px;
+  margin: 10px;
+  overflow-wrap: break-word;
+  color: #874caf;
+}
+
+.button {
+  background-color: #874caf;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 10px;
+}
